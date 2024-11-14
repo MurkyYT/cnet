@@ -32,52 +32,52 @@ private:
     <th>Return type</th>
 </tr>
 <tr>
- 	<td><a href="server/run.md">Run</a></td>
+ 	<td><a href="server/run">Run</a></td>
 	<td>Starts the server</td>
 	<td>void</td>
 </tr>
 <tr>
- 	<td><a href="server/isrunning.md">IsRunning</a></td>
+ 	<td><a href="server/isrunning">IsRunning</a></td>
 	<td>Returns whether the server is running</td>
 	<td>bool</td>
 </tr>
 <tr>
- 	<td><a href="server/close.md">Close</a></td>
+ 	<td><a href="server/close">Close</a></td>
 	<td>Closes the server and cleans up</td>
 	<td>void</td>
 </tr>
 <tr>
- 	<td><a href="server/closeclient.md">CloseClient</a></td>
+ 	<td><a href="server/closeclient">CloseClient</a></td>
 	<td>Closes the client with the specified address</td>
 	<td>void</td>
 </tr>
 <tr>
- 	<td><a href="server/sendall.md">SendAll</a></td>
+ 	<td><a href="server/sendall">SendAll</a></td>
 	<td>Send data to all connected clients</td>
 	<td>bool</td>
 </tr>
 <tr>
- 	<td><a href="server/send.md">Send</a></td>
+ 	<td><a href="server/send">Send</a></td>
 	<td>Send data to a specific client</td>
 	<td>bool</td>
 </tr>
 <tr>
- 	<td><a href="server/isclientconnected.md">IsClientConnected</a></td>
+ 	<td><a href="server/isclientconnected">IsClientConnected</a></td>
 	<td>Returns whether a specific client is connected</td>
 	<td>bool</td>
 </tr>
 <tr>
- 	<td><a href="server/getpeeraddress.md">GetPeerAddress</a></td>
+ 	<td><a href="server/getpeeraddress">GetPeerAddress</a></td>
 	<td>Returns the peer address of the server</td>
 	<td>cnet::Address</td>
 </tr>
 <tr>
- 	<td><a href="server/getsockaddress.md">GetSockAddress</a></td>
+ 	<td><a href="server/getsockaddress">GetSockAddress</a></td>
 	<td>Returns the server's address</td>
 	<td>cnet::Address</td>
 </tr>
 <tr>
- 	<td><a href="server/getclients.md">GetClients</a></td>
+ 	<td><a href="server/getclients">GetClients</a></td>
 	<td>Returns a vector containing all the clients addresses</td>
 	<td>std::vector&lt;cnet::Address&gt;</td>
 </tr>
