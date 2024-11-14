@@ -11,18 +11,76 @@ private:
 ```
 
 ### Methods
-| Name  |  Description | Return type |
-|-------|--------------|-------------|
-|[Size](bytes/size.md)|Returns the size of the data|std::size_t|
-|[ToInt64](bytes/toint64.md)|Converts the 8 first bytes starting from startIndex to int64|bool|
-|[ToUint64](bytes/touint64.md)|Same as ToInt64 but unsigned|bool|
-|[ToInt32](bytes/toint32.md)|Converts the 4 first bytes starting from startIndex to int32|bool|
-|[ToUint32](bytes/touint32.md)|Same as ToInt32 but unsigned|bool|
-|[AsString](bytes/asstring.md)|Returns the string representation of the bytes (e.g "[0xFF,0xFF]")|std::string|
-|[ToString](bytes/tostring.md)|Converts the bytes to a string|std::string|
-|[Slice](bytes/slice.md)|Returns a new instance of cnet::Bytes which is a slice of the current object|cnet::Bytes|
-|[FromInt64](bytes/fromint64.md)|Converts int64_t to cnet::Bytes|cnet::Bytes|
-|[FromUint64](bytes/fromuint64.md)|Converts uint64_t to cnet::Bytes|cnet::Bytes|
-|[FromInt32](bytes/fromint32.md)|Converts int32_t to cnet::Bytes|cnet::Bytes|
-|[FromUint32](bytes/fromuint32.md)|Converts uint32_t to cnet::Bytes|cnet::Bytes|
-|[FromString](bytes/fromstring.md)|Converts std::string to cnet::Bytes|cnet::Bytes|
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Return type</th>
+</tr>
+<tr>
+ 	<td><a href="bytes/size.md">Size</a></td>
+	<td>Returns the size of the data</td>
+	<td>std::size_t</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/toint64.md">ToInt64</a></td>
+	<td>Converts the 8 first bytes starting from startIndex to int64</td>
+	<td>bool</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/touint64.md">ToUint64</a></td>
+	<td>Same as ToInt64 but unsigned</td>
+	<td>bool</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/toint32.md">ToInt32</a></td>
+	<td>Converts the 4 first bytes starting from startIndex to int32</td>
+	<td>bool</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/touint32.md">ToUint32</a></td>
+	<td>Same as ToInt32 but unsigned</td>
+	<td>bool</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/asstring.md">AsString</a></td>
+	<td>Returns the string representation of the bytes (e.g "[0xFF,0xFF]")</td>
+	<td>std::string</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/tostring.md">ToString</a></td>
+	<td>Converts the bytes to a string</td>
+	<td>std::string</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/slice.md">Slice</a></td>
+	<td>Returns a new instance of cnet::Bytes which is a slice of the current object</td>
+	<td>cnet::Bytes</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/fromint64.md">FromInt64</a></td>
+	<td>Converts int64_t to cnet::Bytes</td>
+	<td>cnet::Bytes</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/fromuint64.md">FromUint64</a></td>
+	<td>Converts uint64_t to cnet::Bytes</td>
+	<td>cnet::Bytes</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/fromint32.md">FromInt32</a></td>
+	<td>Converts int32_t to cnet::Bytes</td>
+	<td>cnet::Bytes</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/fromuint32.md">FromUint32</a></td>
+	<td>Converts uint32_t to cnet::Bytes</td>
+	<td>cnet::Bytes</td>
+</tr>
+<tr>
+ 	<td><a href="bytes/fromstring.md">FromString</a></td>
+	<td>Converts std::string to cnet::Bytes</td>
+	<td>cnet::Bytes</td>
+</tr>
+</table>

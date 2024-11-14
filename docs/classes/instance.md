@@ -5,7 +5,20 @@ Ideally should be called always just in case.
 
 ### Methods
 
-| Name  |  Description | Return type |
-|-------|--------------|-------------|
-|Initialize|Initializes needed dll's/so's|void|
-|Uninitialize|Cleans everything up|void|
+<table>
+<tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Return type</th>
+</tr>
+<tr>
+ 	<td>Initialize</td>
+	<td>Initializes needed dll's/so's</td>
+	<td>void</td>
+</tr>
+<tr>
+ 	<td>Uninitialize</td>
+	<td>Cleans everything up</td>
+	<td>void</td>
+</tr>
+</table>

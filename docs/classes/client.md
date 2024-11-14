@@ -23,13 +23,39 @@ private:
 ```
 
 ### Methods
-| Name  |  Description | Return type |
-|-------|--------------|-------------|
-|[Connect](./client/connect.md)|Connects to the specified address|bool|
-|[Close](./client/close.md)|Closes the client and cleans up|void|
-|[Send](./client/send.md)|Send data to the server|bool|
-|[GetPeerAddress](./client/getpeeraddress.md)|Returns the peer address of the client|[cnet::Address](./../types/address.md)|
-|[GetSockAddress](./client/getsockaddress.md)|Returns the client's address|[cnet::Address](./../types/address.md)|
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Return type</th>
+</tr>
+<tr>
+ 	<td><a href="client/connect.md">Connect</a></td>
+	<td>Connects to the specified address</td>
+	<td>bool</td>
+</tr>
+<tr>
+ 	<td><a href="client/close.md">Close</a></td>
+	<td>Closes the client and cleans up</td>
+	<td>void</td>
+</tr>
+<tr>
+ 	<td><a href="client/send.md">Send</a></td>
+	<td>Send data to the server</td>
+	<td>bool</td>
+</tr>
+<tr>
+ 	<td><a href="client/getpeeraddress.md">GetPeerAddress</a></td>
+	<td>Returns the peer address of the client</td>
+	<td>cnet::Address</td>
+</tr>
+<tr>
+ 	<td><a href="client/getsockaddress.md">GetSockAddress</a></td>
+	<td>Returns the client's address</td>
+	<td>cnet::Address</td>
+</tr>
+</table>
 
 
 ### See also
