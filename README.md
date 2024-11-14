@@ -2,7 +2,7 @@
 
 <a href="https://murkyyt.github.io/cnet"><img width=400 src="logo/cNetLogo.png" alt="logo" align="center"/></a>
 
-***cnet*** is a small library written in C++ to ease the use of sockets in cross-platform use cases.
+<p><b>cnet</b> is a small library written in C++ to ease the use of sockets in cross-platform use cases. </p>
 
 </div>
 
