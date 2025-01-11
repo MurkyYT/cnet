@@ -7,11 +7,11 @@ endif()
 
 project ("Chat")
 
-add_subdirectory ("./../../cnet" cnet)
+add_subdirectory ("./../../src/cnet" cnet)
+
+include_directories("./../../src/cnet/include")
 
 add_executable(Chat "main.cpp")
-
-include_directories("./../../cnet/include")
 
 TARGET_LINK_LIBRARIES( Chat
                        cnet )

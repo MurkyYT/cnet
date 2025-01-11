@@ -58,8 +58,12 @@ int main(int argc, char** argv)
 		std::cout << "Enter your name:";
 		std::getline(std::cin, name);
 
-		// Connecting to server running at localhost:6565
-		client.Connect({ "127.0.0.1", 6565 });
+		std::string ip;
+		std::cout << "Enter ip:";
+		std::getline(std::cin, ip);
+
+		// Connecting to server running at port 6565
+		client.Connect({ ip, 6565});
 
 		// Getting the server address
 		const cnet::Address serverAddr = client.GetPeerAddress();
