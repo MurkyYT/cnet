@@ -12,7 +12,7 @@
 - Classes for [TCPSocket](docs/classes/tcpsocket.md) and [UDPSocket](docs/classes/udpsocket.md)
 - Built-in [Server](docs/classes/server.md) and [Client]((docs/classes/client.md)) classes for threaded async `TCP` and `UDP` simultaneous communications
 
-## [Docs](https://murkyyt.github.io/cnet)
+### [Docs](https://murkyyt.github.io/cnet)
 
 ## Examples
 

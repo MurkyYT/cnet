@@ -1,4 +1,4 @@
-# Docs
+# cnet Docs
 
 - #### Primitive Types
     - [SocketHandle](types/sockethandle.md)
