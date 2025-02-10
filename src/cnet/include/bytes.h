@@ -27,6 +27,8 @@ namespace cnet
 
 		std::string AsString();
 		std::string ToString();
+		std::vector<cnet::byte> RawVector() { return data; }
+		cnet::byte* RawData() { return data.data(); }
 
 		cnet::Bytes Slice(size_t from, size_t to = SliceOptions::End);
 
@@ -34,12 +36,19 @@ namespace cnet
 		static Bytes FromUint64(std::uint64_t value, bool bigEndian = true);
 		static Bytes FromInt32(std::int32_t value, bool bigEndian = true);
 		static Bytes FromUint32(std::uint32_t value, bool bigEndian = true);
+		static Bytes FromByte(cnet::byte value);
 		static Bytes FromString(std::string value);
+		static Bytes FromVector(std::vector<cnet::byte> value);
 
 		Bytes& operator+=(const Bytes& rhs);
 		Bytes& operator+=(const std::vector<cnet::byte>& rhs);
 		Bytes& operator+=(const cnet::byte& rhs);
 		Bytes operator+(const Bytes& other);
+
+		cnet::byte operator[] (size_t i) const
+		{
+			return data[i];
+		}
 
 	private:
 		Bytes() {};

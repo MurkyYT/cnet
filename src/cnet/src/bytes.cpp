@@ -66,11 +66,25 @@ namespace cnet
 		return FromInt32((std::int32_t)value, bigEndian);
 	}
 
+	Bytes Bytes::FromByte(cnet::byte value)
+	{
+		cnet::Bytes res;
+		res += value;
+		return res;
+	}
+
 	Bytes Bytes::FromString(std::string value)
 	{
 		cnet::Bytes res;
 		for (size_t i = 0; i < value.size(); i++)
 			res += value[i];
+		return res;
+	}
+
+	Bytes Bytes::FromVector(std::vector<cnet::byte> value)
+	{
+		cnet::Bytes res;
+		res.data = value;
 		return res;
 	}
 
